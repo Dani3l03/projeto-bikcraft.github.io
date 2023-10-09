@@ -23,6 +23,43 @@ img{
 
 h1,
 p,
+h2,
+h3,
 a{
     margin: 0px;
+}
+
+.button{
+    padding: 18px 36px;
+    display: inline-block;
+    background: linear-gradient(#ffbb00, #f2a50c);
+    border-radius: 4px;
+    box-shadow:  0 1px 2px 0 rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    color: #332200;
+    font-weight: 600;
+}
+
+.button:hover{
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+.title{
+    margin-bottom: 32px;
+    font-size: 84px;
+    line-height: 1.125;
+    font-weight: 600;
+}
+
+.text{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.dot{
+   color: #e59317;
+}
+.cinza{
+    color: #2e2e2e;
 }
