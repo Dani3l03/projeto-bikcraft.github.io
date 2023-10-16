@@ -78,6 +78,8 @@
 
     .lista h2{
         color: #da940a;
+        padding-left: 0px;
+        font-size: 42px;
     }
 
     .lista h2 span{
