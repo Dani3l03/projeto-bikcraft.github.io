@@ -94,7 +94,10 @@
     display: inline-block;
     left: -20px;
 }
-
+#seguros .seguros{
+    padding-top: 20px;
+    gap: 10px;
+}
 
 @media (max-width: 800px){
     .seguros{
