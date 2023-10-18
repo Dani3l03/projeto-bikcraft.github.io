@@ -1,9 +1,8 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 600px;
     background-color: #F8F8ff;
-    
+    overflow-x: hidden;
 }
 
 ul{
@@ -40,6 +39,13 @@ blockquote{
     max-width: 1600px;
 }
 
+.acima-title{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #b2b2b2;
+    padding-bottom: 32px;
+
+}
 
 .button{
     padding: 18px 36px;
@@ -50,18 +56,40 @@ blockquote{
     text-transform: uppercase;
     color: #332200;
     font-weight: 600;
+    max-width: max-content;
 }
 
 .button:hover{
     background: linear-gradient(#ffb60d, #e59317);
 }
 
+.button.seta::after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(/img/icones/seta.svg);
+    transition: transform 0.2s;
+}
+
+.button.seta:hover::after{
+    transform: translateX(4px);
+}
 .title{
     margin-bottom: 32px;
     font-size: 64px;
     line-height: 1.125;
     font-weight: 600;
 }
+
+.title-sub{
+    margin-bottom: 12px;
+    font-size: 48px;
+    line-height: 1.125;
+    font-weight: 600;
+}
+
 
 .text{
     margin-bottom: 20px;
@@ -72,6 +100,7 @@ blockquote{
 .dot{
    color: #e59317;
 }
+
 .cinza{
     color: #2e2e2e;
 }
@@ -93,4 +122,12 @@ blockquote{
 
 .link:hover{
     color: #F8F8ff;
+}
+
+.white{
+    color: #F8F8ff;
+}
+
+.cinza-claro{
+    color: #b2b2b2;
 }
