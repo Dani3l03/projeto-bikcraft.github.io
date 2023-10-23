@@ -1,0 +1,118 @@
+.title-bg{
+    background: #131313;
+}
+
+.preco{
+    padding-top: 60px;
+
+}
+
+.bicicleta-content p{
+    color: #b2b2b2;
+    font-size: 24px;
+}
+
+.bicicleta-content span{
+    font-size: 18px;
+    color: #b2b2b2;
+    font-weight: 600;
+}
+
+.bicicleta-info h3{
+    font-size: 24px;
+    color: #f8f8f8;
+    font-weight: 200;
+}
+
+.bicicleta-info p{
+    font-size: 18px;
+    color: #b2b2b2;
+    font-weight: 100;
+}
+
+.bicicleta-ficha li{
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+.bicicleta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bicicleta-imagem{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bicicleta-imagem img{
+    flex: 1;
+    min-width: 200px;
+    border-radius: 4px;
+}
+
+.bicicleta-imagem img:first-child{
+    min-width: 100%;
+}
+
+.bicicleta-content > p{
+    margin-bottom: 32px;
+}
+
+.bicicleta-button{
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-items: start;
+    gap: 8px 12px;
+    margin-bottom: 32px;
+}
+
+.bicicleta-button a{
+    grid-row: span 2;
+}
+
+.bicicleta-button span{
+    display: flex;
+    align-items: center;
+    background: #0000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    gap: 8px;
+}
+
+.bicicleta-content h2{
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.bicicleta ul{
+    padding: 32px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.bicicleta-info{
+    margin-bottom: 32px;
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.bicicleta-ficha{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+
+}
+
+.bicicleta-ficha li{
+    margin-bottom: 10px;
+}
